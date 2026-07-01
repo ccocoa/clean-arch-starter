@@ -1,4 +1,4 @@
-import TodoForm from './components/TodoForm.js';
+import TodoForm from './components/TodoForm';
 
 export default function Page() {
   return (
