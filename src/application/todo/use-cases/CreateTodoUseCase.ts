@@ -1,5 +1,5 @@
-import type { Todo } from '../../domain/todo/entities/Todo.js';
-import type { TodoRepository } from '../../domain/todo/repositories/TodoRepository.js';
+import type { Todo } from '../../../domain/todo/entities/Todo';
+import type { TodoRepository } from '../../../domain/todo/repositories/TodoRepository';
 
 export class CreateTodoUseCase {
   constructor(private todoRepository: TodoRepository) {}
