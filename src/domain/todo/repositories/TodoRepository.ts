@@ -1,4 +1,4 @@
-import { Todo } from '../entities/Todo.js';
+import type { Todo } from '../entities/Todo.js';
 
 export interface TodoRepository {
   create(todo: Todo): Promise<Todo>;
