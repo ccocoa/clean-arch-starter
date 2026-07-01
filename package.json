@@ -1,0 +1,13 @@
+{
+  "name": "clean-arch-starter",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node --loader ts-node/esm src/index.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  }
+}
