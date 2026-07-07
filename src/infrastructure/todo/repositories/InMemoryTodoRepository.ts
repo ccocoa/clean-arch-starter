@@ -8,4 +8,8 @@ export class InMemoryTodoRepository implements TodoRepository {
     this.todos.push(todo);
     return todo;
   }
+
+  async findAll(): Promise<Todo[]> {
+    return this.todos;
+  }
 }
