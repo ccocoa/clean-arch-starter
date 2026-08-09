@@ -1,8 +1,8 @@
 'use server';
 
-import { InMemoryTodoRepository } from '../../src/infrastructure/todo/repositories/InMemoryTodoRepository.js';
-import { CreateTodoUseCase } from '../../src/application/todo/use-cases/CreateTodoUseCase.js';
-import { TodoController } from '../../src/interface-adapters/controllers/todo/TodoController.js';
+import { InMemoryTodoRepository } from '../../src/infrastructure/todo/repositories/InMemoryTodoRepository';
+import { CreateTodoUseCase } from '../../src/application/todo/use-cases/CreateTodoUseCase';
+import { TodoController } from '../../src/interface-adapters/controllers/todo/TodoController';
 
 const todoRepository = new InMemoryTodoRepository();
 const createTodoUseCase = new CreateTodoUseCase(todoRepository);
