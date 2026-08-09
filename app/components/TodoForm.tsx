@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, type FormEvent } from 'react';
-import { createTodoAction } from '../actions/todo.js';
+import { createTodoAction } from '../actions/todo';
 
 export default function TodoForm() {
   const [title, setTitle] = useState('');
